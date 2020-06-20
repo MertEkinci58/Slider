@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/owlcarousel/assets/owl.theme.default.min.css">
+
+    <script src="/owlcarousel/jquery.min.js"></script>
+    <script src="/owlcarousel/owl.carousel.js"></script>
+
+</head>
+
+<body>
+
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img src="images/doğa1.jpg" alt="" /></div>
+        <div class="item"><h4><img src="images/doğa2.jpg" alt="" /></h4></div>
+        <div class="item"><h4><img src="images/doğa3.jpg" alt="" /></h4></div>
+        <div class="item"><h4><img src="images/doğa4.jpg" alt="" /></h4></div>
+        <div class="item"><h4><img src="images/doğa5.jpg" alt="" /></h4></div>
+    </div>
+
+
+<script>
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
+
+
+
+</script>
+
+</body>
+
+</html>
